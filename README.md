@@ -1,30 +1,23 @@
-# Jeo Latorre
+# Hi, I'm Jeo 👋
 
-Computer Science graduate from Bicol University. I build web and mobile applications with a focus on clean architecture, thoughtful UI, and real-world impact.
+A Computer Science graduate from the Philippines who loves building things for the web — from clean frontends to scalable backends and everything in between.
 
-Currently co-founding **QMD Technologies** — a healthtech startup developing AI-powered tools for the medical field, including **StrokeWatch**, a stroke risk prediction mobile app.
-
----
-
-## What I'm Working On
-
-- 🏥 **StrokeWatch** — AI-powered stroke risk prediction app (React Native + FastAPI)
-- 🌍 **PhilQuake** — Philippine earthquake monitoring system (Next.js, Supabase/PostGIS, Leaflet)
-- 🖼️ **Imgrly** — Privacy-first browser image toolkit (Next.js)
+I'm currently co-founding **QMD Technologies**, a healthtech startup building web and mobile solutions for the medical field.
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-**Frontend** — Next.js, React, React Native, TypeScript, Tailwind CSS  
+**Languages** — TypeScript, JavaScript, Python, PHP, C/C++  
+**Frontend** — Next.js, React, React Native, Tailwind CSS  
 **Backend** — Node.js, Express, FastAPI, Laravel  
-**Databases** — PostgreSQL (PostGIS), MongoDB, MySQL, Redis, Supabase  
+**Databases** — PostgreSQL, MongoDB, MySQL, Redis, Supabase  
 **AI/ML** — TensorFlow, PyTorch, Keras, OpenCV  
-**Cloud & Tools** — AWS, Azure, Vercel, Docker, Git, Postman
+**Tools** — Docker, Git, Postman, Figma, AWS, Azure, Vercel
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Stats
 
 ![Stats](https://github-readme-stats.shion.dev/api?username=ejos-ki&theme=ocean_dark&hide_border=true&include_all_commits=true&count_private=true)
 ![Streak](https://streak-stats.demolab.com/?user=ejos-ki&theme=ocean_dark&hide_border=true)
@@ -32,6 +25,8 @@ Currently co-founding **QMD Technologies** — a healthtech startup developing A
 
 ---
 
-## Connect
+## 🌐 Connect
 
-[LinkedIn](https://linkedin.com/in/jeolatorre) · [Instagram](https://instagram.com/ejos.ki) · [Facebook](https://facebook.com/LatorreJeo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jeolatorre)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ejos.ki)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/LatorreJeo)
