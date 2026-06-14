@@ -12,7 +12,4 @@ Computer Science graduate from Bicol University with a strong foundation in fron
 ![](https://streak-stats.demolab.com/?user=ejos-ki&theme=ocean_dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=ejos-ki&theme=ocean_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
----
-[![](https://komarev.com/ghpvc/?username=ejos-ki&icon=9&color=9)](https://visitcount.itsvg.in)
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
