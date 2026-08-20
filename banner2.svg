@@ -1,0 +1,69 @@
+<svg viewBox="0 0 900 210" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="border-radius:16px;background:#102A43;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12314F"/>
+      <stop offset="100%" stop-color="#0B1F33"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0 L0 0 0 30" fill="none" stroke="#2C5478" stroke-width="0.6" opacity="0.35"/>
+    </pattern>
+    <clipPath id="rounded"><rect x="0" y="0" width="900" height="210" rx="16"/></clipPath>
+    <clipPath id="typeClip">
+      <rect x="36" y="58" width="0" height="60">
+        <animate attributeName="width" from="0" to="470" dur="1.6s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+      </rect>
+    </clipPath>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3.2"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="900" height="210" fill="url(#bgGrad)"/>
+    <rect width="900" height="210" fill="url(#grid)"/>
+
+    <!-- corner registration marks -->
+    <g stroke="#F4F8FC" stroke-width="1.4" opacity="0.45">
+      <path d="M16,40 V16 H40" fill="none"/>
+      <path d="M860,16 H884 V40" fill="none"/>
+      <path d="M16,170 V194 H40" fill="none"/>
+      <path d="M884,170 V194 H860" fill="none"/>
+    </g>
+
+    <!-- seismic trace -->
+    <path id="seismicPath" d="M20,178 L45,177 L70,179 L95,176 L120,178 L145,177 L170,179 L195,176 L220,178 L245,177 L270,179 L295,178 L320,140 L335,205 L350,125 L365,198 L380,150 L395,185 L410,165 L425,178 L450,176 L475,179 L500,177 L525,178 L560,177 L600,179 L640,177 L680,178 L720,176 L760,179 L800,177 L840,178 L880,177"
+      fill="none" stroke="#FFB238" stroke-width="1.2" opacity="0.5"
+      pathLength="1000" stroke-dasharray="1000" stroke-dashoffset="1000">
+      <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="3s" begin="0s" fill="freeze"/>
+    </path>
+
+    <g>
+      <animateMotion dur="9s" begin="3s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#seismicPath"/>
+      </animateMotion>
+      <circle r="6" fill="#FFB238" opacity="0.35" filter="url(#glow)"/>
+      <circle r="2.5" fill="#FFD98A"/>
+    </g>
+
+    <!-- eyebrow -->
+    <text x="40" y="42" fill="#FFB238" font-family="Consolas,'SF Mono',monospace" font-size="12" letter-spacing="2" opacity="0.9">// FULL-STACK ENGINEER</text>
+    <text x="860" y="36" fill="#8FA6BE" font-family="Consolas,'SF Mono',monospace" font-size="10" letter-spacing="1" text-anchor="end" opacity="0.6">SIGNAL · PHILQUAKE.LIVE</text>
+
+    <!-- name (typed reveal) -->
+    <g clip-path="url(#typeClip)">
+      <text x="40" y="100" fill="#F4F8FC" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="46" letter-spacing="1">JEO LATORRE</text>
+    </g>
+    <rect x="470" y="62" width="5" height="42" fill="#FFB238">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" begin="1.9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- subtitle -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2s" fill="freeze"/>
+      <text x="42" y="128" fill="#FFB238" font-family="Consolas,'SF Mono',monospace" font-size="15" font-weight="600">Full-Stack Developer</text>
+      <text x="42" y="150" fill="#8FA6BE" font-family="Consolas,'SF Mono',monospace" font-size="12">Web &amp; Mobile Systems · Philippines</text>
+    </g>
+
+    <text x="40" y="192" fill="#8FA6BE" font-family="Consolas,'SF Mono',monospace" font-size="10" letter-spacing="1" opacity="0.7">13.62°N 123.75°E — PH</text>
+  </g>
+</svg>
