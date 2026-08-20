@@ -1,9 +1,9 @@
 ![Banner](./banner2.svg)
 
-*Turning real-world problems — earthquakes, healthcare, deepfakes — into systems people actually use.*
+*Building production-grade systems, one real-world problem at a time.*
 
 ## 💫 About Me
-Full-stack developer building production-grade web and mobile applications, from geospatial alert systems to AI-powered detection tools. Currently co-founding a healthtech startup while continuing to ship independent projects and grow as an engineer.
+Full-stack developer focused on building production-grade web and mobile applications — from backend architecture to polished UI. Currently co-founding a startup while continuing to ship independent projects and sharpen my craft as an engineer.
 
 ## 🌐 Socials
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jeolatorre)
