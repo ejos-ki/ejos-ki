@@ -1,7 +1,7 @@
 ![Banner](./banner.svg)
 
 # 💫 About Me:
-Computer Science graduate from Bicol University, Philippines with a strong foundation in front-end web development, software engineering, and problem-solving. Has hands-on experience in full-stack development and mobile applications through Internship and organizational involvement, with growing skills in backend and mobile development. A Civil Service Professional Level passer and DOST-SEI JLSS Scholar, committed to delivering efficient, user-focused solutions through continuous learning and collaboration.
+Full-stack developer and Computer Science graduate from Bicol University, Philippines, with a solid foundation in front-end engineering, backend systems, and software problem-solving. Experienced in building production-grade applications — from geospatial alert systems and multi-tenant SaaS platforms to AI-powered detection tools — through internship, startup co-founding, and organizational involvement. A Civil Service Professional Level passer and DOST-SEI JLSS Scholar, committed to writing clean, scalable code and delivering user-focused solutions through continuous learning and collaboration.
 
 ---
 
