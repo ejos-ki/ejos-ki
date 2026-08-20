@@ -1,14 +1,12 @@
 ![Banner](./banner2.svg)
 
-# 💫 About Me:
-Full-stack developer and Computer Science graduate from Bicol University, Philippines, with a solid foundation in front-end engineering, backend systems, and software problem-solving. Experienced in building production-grade applications — from geospatial alert systems and multi-tenant SaaS platforms to AI-powered detection tools — through internship, startup co-founding, and organizational involvement. A Civil Service Professional Level passer and DOST-SEI JLSS Scholar, committed to writing clean, scalable code and delivering user-focused solutions through continuous learning and collaboration.
+*Turning real-world problems — earthquakes, healthcare, deepfakes — into systems people actually use.*
 
----
+## 💫 About Me
+Full-stack developer building production-grade web and mobile applications, from geospatial alert systems to AI-powered detection tools. Currently co-founding a healthtech startup while continuing to ship independent projects and grow as an engineer.
 
 ## 🌐 Socials
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jeolatorre)
-
----
 
 ## 💻 Tech Stack
 
