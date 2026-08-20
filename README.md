@@ -1,4 +1,4 @@
-![Banner](./banner.svg)
+![Banner](./banner2.svg)
 
 # 💫 About Me:
 Full-stack developer and Computer Science graduate from Bicol University, Philippines, with a solid foundation in front-end engineering, backend systems, and software problem-solving. Experienced in building production-grade applications — from geospatial alert systems and multi-tenant SaaS platforms to AI-powered detection tools — through internship, startup co-founding, and organizational involvement. A Civil Service Professional Level passer and DOST-SEI JLSS Scholar, committed to writing clean, scalable code and delivering user-focused solutions through continuous learning and collaboration.
