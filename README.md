@@ -12,17 +12,44 @@ Full-stack developer and Computer Science graduate from Bicol University, Philip
 
 ## 💻 Tech Stack
 
-**Languages**  
-![](https://skillicons.dev/icons?i=js,ts,python,php,c,cpp)
+<table>
+<tr><td colspan="4"><b>Languages</b></td></tr>
+<tr>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=js" width="40"/><br><sub>JavaScript</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=ts" width="40"/><br><sub>TypeScript</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=python" width="40"/><br><sub>Python</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=php" width="40"/><br><sub>PHP</sub></td>
+</tr>
 
-**Frontend & Mobile**  
-![](https://skillicons.dev/icons?i=react,nextjs,tailwind,flutter)
+<tr><td colspan="4"><b>Frontend & Mobile</b></td></tr>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=react" width="40"/><br><sub>React</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=nextjs" width="40"/><br><sub>Next.js</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=tailwind" width="40"/><br><sub>Tailwind</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=flutter" width="40"/><br><sub>Flutter</sub></td>
+</tr>
 
-**Backend & Frameworks**  
-![](https://skillicons.dev/icons?i=nodejs,express,fastapi,laravel)
+<tr><td colspan="4"><b>Backend & Frameworks</b></td></tr>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=nodejs" width="40"/><br><sub>Node.js</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=express" width="40"/><br><sub>Express</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=fastapi" width="40"/><br><sub>FastAPI</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=laravel" width="40"/><br><sub>Laravel</sub></td>
+</tr>
 
-**Cloud, Databases & DevOps**  
-![](https://skillicons.dev/icons?i=aws,azure,mongodb,firebase,docker)
+<tr><td colspan="4"><b>Cloud, Databases & DevOps</b></td></tr>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=aws" width="40"/><br><sub>AWS</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=azure" width="40"/><br><sub>Azure</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=mongodb" width="40"/><br><sub>MongoDB</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=docker" width="40"/><br><sub>Docker</sub></td>
+</tr>
 
-**Tools**  
-![](https://skillicons.dev/icons?i=git,github,figma,postman,vscode)
+<tr><td colspan="4"><b>Tools</b></td></tr>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=git" width="40"/><br><sub>Git</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=github" width="40"/><br><sub>GitHub</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=figma" width="40"/><br><sub>Figma</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=postman" width="40"/><br><sub>Postman</sub></td>
+</tr>
+</table>
