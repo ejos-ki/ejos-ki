@@ -5,8 +5,6 @@
 ## 💫 About Me
 Full-stack developer focused on building production-grade web and mobile applications — from backend architecture to polished UI. Continuing to ship independent projects and sharpen my craft as an engineer.
 
-## 🌐 Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jeolatorre)
 
 ## 💻 Tech Stack
 
