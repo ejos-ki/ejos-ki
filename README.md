@@ -1,4 +1,4 @@
-![Banner](./banner2.svg)
+![Banner](./banner3.svg)
 
 *Building production-grade systems, one real-world problem at a time.*
 
