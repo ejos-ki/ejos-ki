@@ -1,0 +1,96 @@
+<svg viewBox="0 0 900 210" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="border-radius:16px;background:#102A43;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12314F"/>
+      <stop offset="100%" stop-color="#0B1F33"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0 L0 0 0 30" fill="none" stroke="#2C5478" stroke-width="0.6" opacity="0.35"/>
+    </pattern>
+    <clipPath id="rounded"><rect x="0" y="0" width="900" height="210" rx="16"/></clipPath>
+    <clipPath id="typeClip">
+      <rect x="36" y="58" width="0" height="60">
+        <animate attributeName="width" from="0" to="470" dur="1.6s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+      </rect>
+    </clipPath>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3.2"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="900" height="210" fill="url(#bgGrad)"/>
+    <rect width="900" height="210" fill="url(#grid)"/>
+
+    <!-- corner registration marks -->
+    <g stroke="#F4F8FC" stroke-width="1.4" opacity="0.45">
+      <path d="M16,40 V16 H40" fill="none"/>
+      <path d="M860,16 H884 V40" fill="none"/>
+      <path d="M16,170 V194 H40" fill="none"/>
+      <path d="M884,170 V194 H860" fill="none"/>
+    </g>
+
+    <!-- eyebrow -->
+    <text x="40" y="42" fill="#FFB238" font-family="Consolas,'SF Mono',monospace" font-size="12" letter-spacing="2" opacity="0.9">// FULL-STACK ENGINEER</text>
+
+    <!-- status indicator, top right -->
+    <circle cx="714" cy="32" r="3" fill="#FFB238">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="860" y="36" fill="#8FA6BE" font-family="Consolas,'SF Mono',monospace" font-size="10" letter-spacing="1" text-anchor="end" opacity="0.75">STATUS · OPEN TO WORK</text>
+
+    <!-- name (typed reveal) -->
+    <g clip-path="url(#typeClip)">
+      <text x="40" y="100" fill="#F4F8FC" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="46" letter-spacing="1">JEO LATORRE</text>
+    </g>
+    <rect x="470" y="62" width="5" height="42" fill="#FFB238">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" begin="1.9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- subtitle -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2s" fill="freeze"/>
+      <text x="42" y="128" fill="#FFB238" font-family="Consolas,'SF Mono',monospace" font-size="15" font-weight="600">Full-Stack Developer</text>
+      <text x="42" y="150" fill="#8FA6BE" font-family="Consolas,'SF Mono',monospace" font-size="12">Web &amp; Mobile Systems · Philippines</text>
+    </g>
+
+    <!-- system stack diagram: UI -> API -> DATA, right side -->
+    <line x1="590" y1="186" x2="590" y2="56" stroke="#2C5478" stroke-width="1.4" opacity="0.55"/>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.3s" fill="freeze"/>
+      <rect x="580" y="152" width="260" height="34" rx="6" fill="#15395C" opacity="0.75" stroke="#2C5478" stroke-width="1"/>
+      <circle cx="590" cy="169" r="3.5" fill="#FFB238"/>
+      <text x="606" y="173" fill="#DCE6F0" font-family="Consolas,'SF Mono',monospace" font-size="11" font-weight="600">DATA</text>
+      <text x="654" y="173" fill="#8FA6BE" font-family="Consolas,'SF Mono',monospace" font-size="11">MongoDB · SQL</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.5s" fill="freeze"/>
+      <rect x="580" y="104" width="260" height="34" rx="6" fill="#15395C" opacity="0.75" stroke="#2C5478" stroke-width="1"/>
+      <circle cx="590" cy="121" r="3.5" fill="#FFB238"/>
+      <text x="606" y="125" fill="#DCE6F0" font-family="Consolas,'SF Mono',monospace" font-size="11" font-weight="600">API</text>
+      <text x="644" y="125" fill="#8FA6BE" font-family="Consolas,'SF Mono',monospace" font-size="11">Node · Express</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.7s" fill="freeze"/>
+      <rect x="580" y="56" width="260" height="34" rx="6" fill="#15395C" opacity="0.75" stroke="#2C5478" stroke-width="1"/>
+      <circle cx="590" cy="73" r="3.5" fill="#FFB238"/>
+      <text x="606" y="77" fill="#DCE6F0" font-family="Consolas,'SF Mono',monospace" font-size="11" font-weight="600">UI</text>
+      <text x="636" y="77" fill="#8FA6BE" font-family="Consolas,'SF Mono',monospace" font-size="11">React · Next.js</text>
+    </g>
+
+    <path id="pulsePath" d="M590,186 L590,56" fill="none" opacity="0"/>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.2s" fill="freeze"/>
+      <animateMotion dur="2.4s" begin="3.2s" repeatCount="indefinite">
+        <mpath href="#pulsePath"/>
+      </animateMotion>
+      <circle r="5" fill="#FFB238" opacity="0.35" filter="url(#glow)"/>
+      <circle r="2.2" fill="#FFD98A"/>
+    </g>
+
+    <text x="40" y="192" fill="#8FA6BE" font-family="Consolas,'SF Mono',monospace" font-size="10" letter-spacing="1" opacity="0.7">REACT · NODE.JS · MONGODB · AWS/AZURE</text>
+  </g>
+</svg>
